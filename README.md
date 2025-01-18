@@ -31,22 +31,22 @@ This project contains Python scripts for web scraping tasks, designed to extract
 ### Price Comparison Script
 Run the script to scrape product prices:
 ```bash
-python price_comparison.py --url "<product_url>"
+python prize_checker.py --url "<product_url>"
 ```
 To process multiple URLs from a file:
 ```bash
-python price_comparison.py --file <file_path>
+python prize_checker.py --file <file_path>
 ```
 The script will save the product names and prices to `prices.txt`.
 
 ### Web Content Scraper
 Run the script to scrape `<p>` content from a web page:
 ```bash
-python content_scraper.py --url "<target_url>"
+python scrapper.py --url "<target_url>"
 ```
 To process multiple URLs from a file:
 ```bash
-python content_scraper.py --file <file_path>
+python scrapper.py --file <file_path>
 ```
 
 ## File Descriptions
